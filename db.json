@@ -1,0 +1,15 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@test.com",
+      "phone": "+77001234567",
+      "company": "ACME",
+      "status": "active",
+      "notes": "hi",
+      "createdAt": "2026-02-21T00:00:00.000Z",
+      "updatedAt": "2026-02-21T00:00:00.000Z"
+    }
+  ]
+}
