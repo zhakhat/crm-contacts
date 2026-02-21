@@ -1,3 +1,4 @@
+// Статус контакта может быть ТОЛЬКО 'active' или 'inactive'
 export type ContactStatus = 'active' | 'inactive';
 
 export type Contact = {
@@ -11,5 +12,5 @@ export type Contact = {
   createdAt: string;
   updatedAt: string;
 };
-
+// ContactInput — версия контакта, которую мы отправляем при создании/редактировании без id и дат
 export type ContactInput = Omit<Contact, 'id' | 'createdAt' | 'updatedAt'>;
